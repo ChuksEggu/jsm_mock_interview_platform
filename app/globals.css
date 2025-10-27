@@ -269,9 +269,20 @@
         @apply flex flex-row blue-gradient-dark rounded-3xl px-16 py-6 items-center justify-between max-sm:px-4;
     }
 
+    /*.interviews-section {*/
+    /*    @apply grid grid-cols-1 sm:grid-cols-2 gap-6 w-full items-start;*/
+    /*}*/
+
+    /*.interviews-section {*/
+    /*    @apply flex flex-wrap gap-4 max-lg:flex-col w-full items-stretch;*/
+    /*}*/
+
     .interviews-section {
-        @apply flex flex-wrap gap-4 max-lg:flex-col w-full items-stretch;
+        @apply w-full items-stretch gap-6;
+        @apply grid grid-cols-1 sm:grid-cols-2 items-start;
+        @apply max-lg:flex max-lg:flex-wrap max-lg:flex-col;
     }
+
 
     .interview-text {
         @apply text-lg text-center text-white;
